@@ -1,0 +1,9 @@
+source https://api.nuget.org/v3/index.json
+
+storage: none
+nuget Fable.Elmish
+nuget Fable.Elmish.HMR
+nuget Fable.Promise
+nuget Feliz
+nuget Feliz.Router
+nuget FSharp.Core

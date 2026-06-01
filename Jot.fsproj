@@ -1,19 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
 <Project Sdk="Microsoft.NET.Sdk">
-
-    <PropertyGroup>
-        <TargetFramework>net10.0</TargetFramework>
-        <LangVersion>latest</LangVersion>
-    </PropertyGroup>
-
-    <ItemGroup>
-        <Compile Include="src/Domain.fs"/>
-        <Compile Include="src/Shared.fs"/>
-        <Compile Include="src/Pages/NotFound.fs"/>
-        <Compile Include="src/Pages/Layout.fs"/>
-        <Compile Include="src/Pages/Page.fs"/>
-    </ItemGroup>
-
-    <ItemGroup>
-      <ProjectReference Include=".elmish-land/Base/ElmishLand.Jot.Base.fsproj" />
-    </ItemGroup>
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="src/Domain.fs" />
+    <Compile Include="src/Shared.fs" />
+    <Compile Include="src/Pages/NotFound.fs" />
+    <Compile Include="src/Pages/Layout.fs" />
+    <Compile Include="src/Pages/Page.fs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include=".elmish-land/Base/ElmishLand.Jot.Base.fsproj" />
+  </ItemGroup>
+  <Import Project=".paket\Paket.Restore.targets" />
 </Project>
