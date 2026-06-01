@@ -41,7 +41,7 @@
         // "**/node_modules": true,
         // "**/bin": true,
         // "**/obj": true,
-        "**/output": true,
-        "**/deploy": true,
+        // "**/output": true,
+        // "**/deploy": true,
     }
 }

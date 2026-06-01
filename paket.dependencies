@@ -2,5 +2,9 @@ source https://api.nuget.org/v3/index.json
 framework: net8.0
 storage: none
 
+nuget Fable.Promise
+nuget Fake.Core.Target
+nuget Farmer
+nuget Feliz.Router
 nuget SAFE.Server ~> 5
 nuget SAFE.Client ~> 5
