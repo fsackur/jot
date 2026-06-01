@@ -5,3 +5,7 @@ Fable.Elmish.React
 Fable.Promise
 Feliz
 Feliz.Router
+Fable.Form
+Fable.Form.Simple
+Fable.Form.Simple.Fields.Html
+Fable.Form.Simple.Bulma

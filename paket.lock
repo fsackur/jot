@@ -35,6 +35,21 @@ NUGET
       Fable.Elmish (>= 5.0.2) - restriction: >= netstandard2.0
       Fable.ReactDom.Types (>= 18.2) - restriction: >= netstandard2.0
       FSharp.Core (>= 4.7.2) - restriction: >= netstandard2.0
+    Fable.Form (3.0)
+      FSharp.Core (>= 5.0.2) - restriction: >= netstandard2.1
+    Fable.Form.Simple (5.0.1)
+      Fable.Form (>= 3.0) - restriction: >= netstandard2.1
+      FSharp.Core (>= 5.0.2) - restriction: >= netstandard2.1
+    Fable.Form.Simple.Bulma (5.0.1)
+      Fable.Form (>= 3.0) - restriction: >= netstandard2.1
+      Fable.Form.Simple (>= 5.0.1) - restriction: >= netstandard2.1
+      Fable.Form.Simple.Fields.Html (>= 1.0.1) - restriction: >= netstandard2.1
+      Feliz (>= 2.8) - restriction: >= netstandard2.1
+      Feliz.Bulma (>= 3.0) - restriction: >= netstandard2.1
+      FSharp.Core (>= 5.0.2) - restriction: >= netstandard2.1
+    Fable.Form.Simple.Fields.Html (1.0.1)
+      Fable.Form (>= 3.0) - restriction: >= netstandard2.1
+      FSharp.Core (>= 5.0.2) - restriction: >= netstandard2.1
     Fable.Promise (3.2)
       Fable.Core (>= 3.7.1) - restriction: >= netstandard2.0
       FSharp.Core (>= 4.7.2) - restriction: >= netstandard2.0
@@ -50,6 +65,9 @@ NUGET
       Fable.React.Types (>= 18.4) - restriction: >= netstandard2.0
       Fable.ReactDom.Types (>= 18.2) - restriction: >= netstandard2.0
       Feliz.CompilerPlugins (>= 3.2) - restriction: >= netstandard2.0
+    Feliz.Bulma (5.0) - restriction: >= netstandard2.1
+      Feliz (>= 3.3.1) - restriction: >= netstandard2.0
+      FSharp.Core (>= 6.0) - restriction: >= netstandard2.0
     Feliz.CompilerPlugins (3.2) - restriction: >= netstandard2.0
       Fable.AST (>= 5.0.0-rc.3) - restriction: >= netstandard2.0
     Feliz.Router (4.0)
